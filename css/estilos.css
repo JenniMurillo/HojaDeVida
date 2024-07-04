@@ -1,0 +1,105 @@
+
+* {
+    margin: 1px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-ondulado-degradado-rojo-azul_23-2148458094.jpg?w=740&t=st=1677126901~exp=1677127501~hmac=08eefaa525fb599aaf6b3db1c260946a9deec7f84e14261aeec7c8d686d6c910');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    color: aliceblue;
+    padding: 18px;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 8px 8px 5px rgba(79, 156, 249, 0.5);
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 30px;
+    font-style: italic;
+}
+
+li {
+    color: aliceblue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.container-imagen {
+    display: flex;
+    align-items: flex-start;
+    margin: 90px;
+    z-index: 2;
+}
+
+.container-datos {
+    width: 600px;
+    height: 300px;
+    margin-left: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 139, 0.5); /* Fondo con opacidad para Datos Personales */
+}
+
+.imagen {
+    width: 500px;
+    margin-left: 200px;
+}
+
+.caja-enlace {
+    display: flex;
+    color: aliceblue;
+    text-align: center;
+    width: 210px;
+    flex-direction: row;
+    border: 2px solid lightgray;
+    padding: 5px;
+    margin: 10px;
+    /* box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.box-datos {
+    width: 590px;
+    height: 380px;
+    background-color: rgba(138, 43, 226, 0.8); /* Fondo con opacidad para Estudios Realizados */
+    margin-left: 500px;
+    padding: 50px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cuadroP {
+    width: 310px;
+    height: 210px;
+    background-color: rgba(138, 43, 226, 0.8); /* Fondo con opacidad para Estudios Varios */
+    margin-left: 580px;
+    padding: 65px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container-menu {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+
+.container-footer {
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    z-index: 2;
+}
